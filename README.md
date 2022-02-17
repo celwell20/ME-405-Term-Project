@@ -30,6 +30,6 @@ TYLER FILL THIS SUCKA OUT!!!!
 <br>
 Figure 1. Isometric view of system.
 
-![Internal electronics layout](motor layout.PNG)
+![Internal electronics layout](motorlayout.PNG)
 <br>
 Figure 2. Internal motor layout.
