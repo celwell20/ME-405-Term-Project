@@ -26,10 +26,10 @@ TYLER FILL THIS SUCKA OUT!!!!
 
 ### CAD Images
 
-![Annotated RC circuit step response](isometric.png)
+![Isometric view of system](isometric.PNG)
 <br>
 Figure 1. Isometric view of system.
 
-![Annotated RC circuit step response](motor layout.png)
+![Internal electronics layout](motor layout.PNG)
 <br>
 Figure 2. Internal motor layout.
