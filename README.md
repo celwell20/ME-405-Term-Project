@@ -3,7 +3,18 @@
 
 
 ### Project Description
-TYLER FILL THIS SUCKA OUT!!!!
+Our robot will resemble that of an RC car, but with only two wheels instead of
+4. The device will be stabilized by four other legs that simply glide across the
+surface as the robot moves. The pen will be mounted in the center of the two
+wheels, allowing for easy control of the pen location. The pen itself will be
+controlled by a solenoid which will lift the pen when not drawing and drop the pen
+when it is. The chassis of the plotter will be 3D printed out of ABS or PLA with
+heat-set inserts used for mounting the various components.
+The robot will be powered by 8 AA batteries to produce a total of 24 V which
+will power the solenoid and both motors. A buck converter will also be used to
+step down the voltage in order to also power the STM as well. The STM will also be
+accompanied by a bluetooth module allowing for remote communication to the
+plotter since the whole device will be moving.
 
 ### Bill of Materials
 
