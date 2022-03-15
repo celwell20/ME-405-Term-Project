@@ -101,6 +101,13 @@ developed if this system were to be designed with commercialization in mind.
 
 ## Additional Contents and Files
 
+### Kinematic Derivation
+The following calculations derive the relationship between the angle of the motor shaft and the angle of the corresponding wheel.
+![kinematics1](kine1.PNG)
+![kinematics2](kine2.PNG)
+
+
+
 ### Bill of Materials
 
 | Qty. | Part                  | Source                | Est. Cost |
