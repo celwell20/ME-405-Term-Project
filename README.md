@@ -102,7 +102,7 @@ developed if this system were to be designed with commercialization in mind.
 ## Additional Contents and Files
 
 ### Kinematic Derivation
-The following calculations derive the relationship between the angle of the motor shaft and the angle of the corresponding wheel.
+The following calculations derive the relationship between the angle of the motor shaft and the angle of the corresponding wheel. <br>
 ![kinematics1](kine1.PNG)
 ![kinematics2](kine2.PNG)
 
@@ -127,12 +127,6 @@ The following calculations derive the relationship between the angle of the moto
 |  10  | M3 10 mm SCHS         | Clayton's Closet      |     -     |
 
 
-### CAD Image
-
-![Isometric view of system](cad.PNG)
-<br>
-Figure 9. Isometric view of system.
-
-
 ### SOLIDWORKS Models and Assemblies
 CAD models may be referenced in the “SOLIDWORKS Model” directory.
+![Isometric view of system](cad.PNG)
