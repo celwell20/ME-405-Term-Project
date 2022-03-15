@@ -24,10 +24,10 @@
 */
 var NAVTREE =
 [
-  [ "ME 405 RC Drawing Car Term Project Documentation", "index.html", [
+  [ "clay's ME 405 Term Project", "index.html", [
+    [ "Documentation", "index.html#documentation", null ],
     [ "Software Design", "index.html#software_design", [
       [ "Nucleo/Microcontroller Task Diagram", "index.html#task_diagram", null ],
-      [ "User Interface Finite State Machine", "index.html#user_fsm", null ],
       [ "Communication Finite State Machine", "index.html#comm_fsm", null ],
       [ "Hardware (motor and encoder) Finite State Machine", "index.html#hard_fsm", null ]
     ] ],
