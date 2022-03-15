@@ -21,7 +21,7 @@ the chassis is fabricated from PLA. The two pegs on either side of the chassis h
 the need for any software to balance the wheels with the motor torques (Figure 2). Two bearings facilitate each wheel’s 
 rotation, and the driveshafts are cut from 0.25” steel rod stock that was found in the mechatronics lab (Figure 3). 
 
-![Pittman](geartrain.JPG)
+![Pittman](geartrain.jpg)
 <br>
 Figure 1. Torque transmission system.
 
@@ -29,21 +29,21 @@ Figure 1. Torque transmission system.
 <br>
 Figure 2. Chassis and wheels.
 
-![Bearings](sys1.JPG)
+![Bearings](sys1.jpg)
 <br>
 Figure 3. Press-fit bearings (with superglue).
 
 To connect the motors to the chassis, M3 heat-set inserts and machine screws were used with PLA “straps” as 
 seen in Figure 1 (PLA straps) and 4 (heat-set inserts). 
 
-![Inserts](sys2.JPG)
+![Inserts](sys2.jpg)
 <br>
 Figure 4. Chassis heat set inserts.
 
 A Tower Pro servo motor is used control the drawing apparatus’s contact with the sketching surface; it is 
 press fit into a thin PLA plate that fastens to the chassis with M3 heat-set inserts and machine screws (Figure 5).
 
-![Tower](towerpro.PNG)
+![Tower](towerpro.jpg)
 <br>
 Figure 5. Drawing apparatus servo motor.
 
@@ -71,11 +71,11 @@ memory and prompted our system to execute the instructions. Figure 6 displays th
 SOLIDWORKS; Figure 6 displays the drawing created by our system. Figure 8 links to a video demonstration of our 
 plotter car.
 
-![des](des.JPG)
+![des](des.jpg)
 <br>
 Figure 6. Desired drawing.
 
-![exp](exp.JPG)
+![exp](exp.jpg)
 <br>
 Figure 7. Our system's drawing.
 
