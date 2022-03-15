@@ -25,7 +25,7 @@ rotation, and the driveshafts are cut from 0.25” steel rod stock that was foun
 <br>
 Figure 1. Torque transmission system.
 
-![Chassis](sys3.JPG)
+![Chassis](sys3.jpg)
 <br>
 Figure 2. Chassis and wheels.
 
