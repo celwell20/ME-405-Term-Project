@@ -75,7 +75,7 @@ memory and prompted our system to execute the instructions. Figure 6 displays th
 SOLIDWORKS; Figure 6 displays the drawing created by our system. Figure 8 links to a video demonstration of our
 plotter car.
 
-![des](des.jpg)
+![des](des.png)
 <br>
 Figure 6. Desired drawing.
 
