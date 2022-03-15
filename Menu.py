@@ -4,7 +4,7 @@
 @mainpage
 
 \section documentation Documentation
-            Link to our term project firmware documentation:
+            Link to our term project firmware documentation: https://celwell20.github.io/ME-405-Term-Project/Documentation
             
 
 \section software_design Software Design
