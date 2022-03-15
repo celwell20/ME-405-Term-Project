@@ -1,7 +1,7 @@
 # ME 405 Term Project
 ## Tyler McCue and Clayton Elwell Term Project
 
-
+![Intro](intro.jpg)
 
 ### Introduction
 The purpose of this device is to draw a 2D image that may be determined by the user, or an appropriate 
