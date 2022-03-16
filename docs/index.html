@@ -96,7 +96,7 @@ $(document).ready(function(){initNavTree('index.html',''); initResizable(); });
 <div class="contents">
 <div class="textblock"><h1><a class="anchor" id="documentation"></a>
 Documentation</h1>
-<p >Link to our term project firmware documentation can be found <a href="https://celwell20.github.io/ME-405-Term-Project/Documentation"><u>here</u></a></p>
+<p >Link to our term project firmware documentation: <a href="https://celwell20.github.io/ME-405-Term-Project/Documentation">https://celwell20.github.io/ME-405-Term-Project/Documentation</a></p>
 <h1><a class="anchor" id="software_design"></a>
 Software Design</h1>
 <p >This section describes our software design, and outlines our finite state machine and task diagrams used to control the remote control drawing vehicle.</p>
@@ -106,19 +106,39 @@ Nucleo/Microcontroller Task Diagram</h2>
 <img src="task_diagram.png" alt=""/>
 <div class="caption">
 RC Car MCU Task Diagram</div></div>
+<p >We utilized a closed-loop proportional controller with feedback from the Pittman motor encoders to command the car to travel to the desired angle. A co-task program was then used to control both motors semi synchronously. A parsing task and interpreter task are then used to parse the code file and send the encoder values needed to reach the desired position.</p>
 <h2><a class="anchor" id="comm_fsm"></a>
 Communication Finite State Machine</h2>
 <p >Finite state machine for our MCU communication. </p><div class="image">
 <img src="comm_fsm.PNG" alt=""/>
 <div class="caption">
 Communication FSM</div></div>
+<p >The communication FSM is relatively simple with the task waiting for a signal from each motor that the desired position has been reached, once this is achieved, the next command is sent.</p>
 <h2><a class="anchor" id="hard_fsm"></a>
 Hardware (motor and encoder) Finite State Machine</h2>
 <p >Finite state machine for our various hardware components. </p><div class="image">
 <img src="hardware_fsm.PNG" alt=""/>
 <div class="caption">
 Hardware FSM</div></div>
-<dl class="section author"><dt>Author</dt><dd>Clayton Elwell </dd>
+<p >The hardware FSM is more involved with the task having three main areas, a rotation, translation, and pen stage. Depending on the value given to this task, the motors will initiate a rotation, translation, or lift/lower the pen. After the command has been executed the state always returns to wait.</p>
+<p >Our software consisted of several programs and drivers shown below: </p><pre class="fragment">main    Main program that instantiates all harware objects such as the motors, encoders, and controllers.
+
+cotask  Task scheduling driver provided by Dr.Ridgley.
+
+Closed_Loop Controller driver that provides closed loop control to a system.
+
+motor_elwell_mccue  Driver that controls a motor with PWM.
+
+encoder_elwell_mccue    Driver that controls an encoder to record position.
+
+chassis_driver  Driver that controls chassis measurements and converts position commands to encoder values.
+
+servo_driver    Driver that controls a servo motor between two set positions (Level and Raised).
+
+task_share  Program that allows for data to be shared across two tasks.
+
+code    Text file that contains all commands for the plotter to do.
+</pre> <dl class="section author"><dt>Author</dt><dd>Clayton Elwell </dd>
 <dd>
 Tyler McCue </dd></dl>
 </div></div><!-- PageDoc -->
@@ -127,7 +147,7 @@ Tyler McCue </dd></dl>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Mar 15 2022 14:00:18 for clay&#39;s ME 405 Term Project by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+    <li class="footer">Generated on Tue Mar 15 2022 21:51:46 for clay&#39;s ME 405 Term Project by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
   </ul>
 </div>
 </body>
